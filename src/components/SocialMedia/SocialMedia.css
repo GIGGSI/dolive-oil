@@ -1,0 +1,46 @@
+.social-media-wrapper {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  gap: 4.5vw;
+  left: 0;
+  right: 0;
+  margin-top: -30vw;
+}
+
+.social-media-icon {
+  font-size: 10vw;
+  color: #444d1c;
+}
+
+@media screen and (min-width: 768px) {
+  .social-media-wrapper {
+    margin-top: -16vw;
+    gap: 1.5vw;
+  }
+
+  .social-media-icon {
+    font-size: 3vw;
+  }
+}
+
+
+
+@media screen and (min-width: 960px) {
+  .social-media-wrapper {
+    margin-top: -14vw;
+    gap: 1.5vw;
+  }
+}
+@media screen and (min-width: 1160px) {
+    .social-media-wrapper {
+      margin-top: -12vw;
+      gap: 1.5vw;
+    }
+  }
+@media screen and (min-width: 1260px) {
+    .social-media-wrapper {
+      margin-top: -8vw;
+      gap: 1.5vw;
+    }
+  }
